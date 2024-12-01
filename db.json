@@ -1,46 +1,64 @@
 {
   "venues": [
-      {
-          "id": 1,
-          "name": "Luigi's Pizza",
-          "address": "123 Main St, New York",
-          "image": "/images/photo-1580240224305-cfa9d5cdca5e.jpeg",
-          "description": "Luigi's Pizza is a family owned restaurant that has been serving New York style pizza for over 20 years."
-      },
-      {
-          "id": 2,
-          "name": "Burger Town",
-          "address": "987 Food St, New Yersey",
-          "image": "/images//photo-1511421616335-5a9846f1afcb.jpeg",
-          "description": "Here at Burger Town we serve the best burgers in town."
-      },
-      {
-          "id": 3,
-          "name": "Amy's Ice Cream",
-          "address": "234 Dessert St, New Yersey",
-          "image": "/images/photo-1652101898564-034889096be4.jpeg",
-          "description": "Amy's Ice Cream is a nice place to get some ice cream."
-      },
-      {
-          "id": 4,
-          "name": "Geno's Steaks",
-          "address": "764 Medium St, New York",
-          "image": "/images/photo-1541251711960-c085155ceea0.jpeg",
-          "description": "Looking for a good Philly Cheesesteak? Come to Geno's Steaks."
-      },
-      {
-          "id": 5,
-          "name": "Funky Noodle",
-          "address": "111 Asian St, Detroit",
-          "image": "/images/photo-1678049277571-b7d383d54901.jpeg",
-          "description": "Funky Noodle is a great place to get some Asian food."
-      },
-      {
-          "id": 6,
-          "name": "Los Tacos No. 1",
-          "address": "121 Mexican St, Detroit",
-          "image": "/images/photo-1613514785940-daed07799d9b.jpeg",
-          "description": "Los Tacos No. 1 is a great place to get some tacos. They have the best tacos in town."
-      }
+    {
+      "id": 1,
+      "name": "Modern Art Gallery",
+      "address": "123 Contemporary Ave, New York",
+      "image": "/images/modern-gallery.jpg",
+      "description": "A cutting-edge gallery featuring contemporary artists from around the world. Known for its innovative installations and multimedia exhibitions.",
+      "type": "gallery",
+      "specialties": ["Contemporary", "Multimedia", "Installations"],
+      "hours": "Tue-Sun: 10:00-18:00"
+    },
+    {
+      "id": 2,
+      "name": "Natural History Museum",
+      "address": "987 Discovery Blvd, New York",
+      "image": "/images/natural-museum.jpg",
+      "description": "Explore millions of years of natural history through interactive exhibits, dinosaur fossils, and geological wonders.",
+      "type": "museum",
+      "specialties": ["Natural History", "Paleontology", "Geology"],
+      "hours": "Mon-Sun: 9:00-17:30"
+    },
+    {
+      "id": 3,
+      "name": "Classical Art Museum",
+      "address": "234 Renaissance Square, New Jersey",
+      "image": "/images/classical-museum.jpg",
+      "description": "Home to an extensive collection of European masterpieces from the Renaissance to the 19th century.",
+      "type": "museum",
+      "specialties": ["Classical Art", "Renaissance", "European Masters"],
+      "hours": "Wed-Mon: 10:00-19:00"
+    },
+    {
+      "id": 4,
+      "name": "Photography Gallery",
+      "address": "764 Lens Street, New York",
+      "image": "/images/photo-gallery.jpg",
+      "description": "Showcasing both historic and contemporary photography, featuring rotating exhibitions from renowned photographers.",
+      "type": "gallery",
+      "specialties": ["Photography", "Digital Art"],
+      "hours": "Thu-Tue: 11:00-20:00"
+    },
+    {
+      "id": 5,
+      "name": "Science & Technology Museum",
+      "address": "111 Innovation Drive, Detroit",
+      "image": "/images/science-museum.jpg",
+      "description": "Interactive exhibits demonstrating scientific principles and technological advances through hands-on experiences.",
+      "type": "museum",
+      "specialties": ["Science", "Technology", "Interactive Exhibits"],
+      "hours": "Mon-Sun: 9:00-18:00"
+    },
+    {
+      "id": 6,
+      "name": "Contemporary Sculpture Garden",
+      "address": "121 Outdoor Arts Way, Detroit",
+      "image": "/images/sculpture-garden.jpg",
+      "description": "An outdoor museum featuring large-scale contemporary sculptures set in beautiful landscaped gardens.",
+      "type": "gallery",
+      "specialties": ["Sculpture", "Outdoor Art", "Landscape Design"],
+      "hours": "Daily: 8:00-Sunset"
+    }
   ]
 }
